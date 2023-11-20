@@ -1,0 +1,40 @@
+{
+  "name": "@seonup/use-calendar",
+  "version": "0.0.1",
+  "description": "A simple and easy-to-use calendar package implemented in React and TypeScript. Provides date information and datepicker functionality.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkseonup/calendar-hook.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "calendar",
+    "useCalendar",
+    "datepicker",
+    "typescript",
+    "react-hook"
+  ],
+  "author": "seonup <seonup95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parkseonup/calendar-hook/issues"
+  },
+  "homepage": "https://github.com/parkseonup/calendar-hook#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15"
+  },
+  "private": false
+}
